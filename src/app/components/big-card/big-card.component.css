@@ -11,8 +11,9 @@
 }
 
 .big-card__description {
+  white-space: pre-wrap;
   margin-top: 10px;
-}
+  }
 
 .big-card__tittle > h1 {
   margin-top: 15px;
