@@ -29,7 +29,7 @@ export class ContentComponent {
     const result = dataFake.filter(article => article.id == id)[0]
 
 
-      this.contentTittle = result.tittle
+      this.contentTittle = result.title
       this.contentDescription = result.description
       this.photoCover = result.photo
 

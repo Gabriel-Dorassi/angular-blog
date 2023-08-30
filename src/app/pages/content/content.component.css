@@ -10,17 +10,17 @@
   align-items: center;
 }
 .content__cover{
-  border: 1px solid white;
+
 }
 
 .content__cover > img{
-  border: 5px solid red;
   border-radius: 5px;
   width: 500px;
   min-width: 500px;
   height: 300px;
 }
 .content__description {
+  white-space: pre-wrap;
   margin-top: 10px;
 }
 

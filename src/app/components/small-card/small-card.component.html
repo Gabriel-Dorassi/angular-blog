@@ -1,19 +1,27 @@
 <div class="container__small-card">
   <div class="container__small-card-contennt">
    <div class="small-card__photo">
-    <img
-      src=" {{ photoCover }}"
-      srcset=""
-   >
+
 </div>
 
 
 <div class="small-card__tittle">
-    <h1><a [routerLink]="['content',Id]">{{ cardTittle }}</a></h1>
+    <h1>{{ cardTittle }}</h1>
   </div>
 </div>
 
   <div class="container__small-card__separator">
     <hr>
   </div>
+  <div class="container__description-title1">
+    <p><a [routerLink]="['content',Id]"> {{ descriptionTitle1}}</a></p>
+  </div>
+  <div class="container__description-title">
+    <p>{{ descriptionTitle }}</p>
+  </div>
+  <div class="container__descriptionTitleDownload">
+    <p><a href="src/assets/Profile-1.pdf" class='download' download="download">{{ descriptionTitleDownload }}</a></p>
+  </div>
+
+
 </div>

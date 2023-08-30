@@ -13,7 +13,16 @@ export class SmallCardComponent {
   cardTittle:string = ""
 
   @Input()
+  descriptionTitle1:string = ""
+
+  @Input()
+  descriptionTitle:string = ""
+
+  @Input()
   Id:string="0"
+
+  @Input()
+  descriptionTitleDownload:string = ""
 
 
 }

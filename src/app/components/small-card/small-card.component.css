@@ -1,6 +1,6 @@
 .container__small-card {
   width: 700px;
-  margin-bottom: 15px;
+  margin-bottom: 70px;
 
 }
 
@@ -22,4 +22,22 @@
 .container__small-card__separator {
   margin-top: 10px;
 
+}
+.container__description-title1 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+
+}
+.container__description-title1 > p > a {
+  white-space: pre-wrap;
+}
+.container__description-title {
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+
+}
+.container__description-title > p {
+  display: flex;
 }
